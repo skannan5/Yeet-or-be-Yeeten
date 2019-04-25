@@ -1,0 +1,9 @@
+
+public class Zombie extends Enemy {
+
+	public Zombie(String n, int h) {
+		super(n, h);
+	}
+	
+
+}
