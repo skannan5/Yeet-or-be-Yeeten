@@ -1,0 +1,9 @@
+
+public class Skeleton extends Enemy {
+
+	public Skeleton(String n, int h) {
+		super(n, h);
+
+	}
+
+}
