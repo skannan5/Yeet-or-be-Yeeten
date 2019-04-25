@@ -1,0 +1,9 @@
+
+public class Mage extends Player {
+
+	public Mage(String n, int h) {
+		super(n, h);
+	}
+	
+
+}
