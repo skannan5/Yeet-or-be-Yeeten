@@ -1,0 +1,17 @@
+
+public abstract class Enemy extends Character {
+	
+	public Enemy(String n, int h) {
+		super(n,h);
+		
+	}
+
+	public void attack() {
+
+	}
+
+	public void defend() {
+
+	}
+	
+}
