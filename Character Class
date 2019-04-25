@@ -1,0 +1,46 @@
+
+public abstract class Character {
+	public String name;
+	public int health;
+	public int level;
+	public double dmgMulti;
+	public double defMulti;
+	public int cooldown;
+
+	public Character(String n, int h) {
+		name = n;
+		health = h;
+	}
+
+//	public boolean canAttack() {
+//		return false;
+//	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getHealth() {
+		return health;
+	}
+
+	public int getLevel() {
+		return level;
+	}
+
+	public double getDmgMulti() {
+		return dmgMulti;
+	}
+
+	public double getDefMulti() {
+		return defMulti;
+	}
+
+	// takes damage multiplier and subtracts damage dealt to opponent's health
+	public abstract void attack();
+
+	// temporarily increases defMulti
+	public abstract void defend();
+
+
+}
