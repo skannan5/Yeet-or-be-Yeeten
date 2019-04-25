@@ -1,0 +1,9 @@
+
+public class Rogue extends Player {
+
+	public Rogue(String n, int h) {
+		super(n, h);
+	}
+
+
+}
