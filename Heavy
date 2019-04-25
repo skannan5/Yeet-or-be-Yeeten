@@ -1,0 +1,9 @@
+
+public class Heavy extends Player {
+
+	public Heavy(String n, int h) {
+		super(n, h);
+	}
+	
+
+}
