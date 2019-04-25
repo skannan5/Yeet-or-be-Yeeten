@@ -1,0 +1,8 @@
+
+public class Ogre extends Enemy {
+
+	public Ogre(String n, int h) {
+		super(n, h);
+	}
+
+}
