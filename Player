@@ -1,0 +1,17 @@
+
+public abstract class Player extends Character{
+	
+	public Player(String n, int h) {
+		super(n,h);
+		
+	}
+	
+	public void attack() {
+		
+	}
+	
+	public void defend() {
+		
+	}
+	
+}
